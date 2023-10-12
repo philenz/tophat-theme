@@ -1,8 +1,8 @@
 # Top Hat
 
-[Top Hat](https://github.com/sergiobarriel/tophat-theme) it's a simple [Hugo](https://gohugo.io/) theme just for blogging.
+[Top Hat](https://github.com/philenz/tophat-theme) it's a simple [Hugo](https://gohugo.io/) theme just for blogging.
 
-![screenshot](https://raw.githubusercontent.com/sergiobarriel/tophat-theme/main/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/philenz/tophat-theme/main/images/screenshot.png)
 
 ## Live view
 
@@ -23,7 +23,7 @@ You can use the theme in by two flavors, [downloading files from repository](#do
 
 ### Download files from repository
 
-Download .zip file from [this link](https://github.com/sergiobarriel/tophat-theme/archive/refs/heads/main.zip) and extract the content to `themes/tophat` folder
+Download .zip file from [this link](https://github.com/philenz/tophat-theme/archive/refs/heads/main.zip) and extract the content to `themes/tophat` folder
 
 Then open your `hugo.toml` file and add the following tag:
 
@@ -31,13 +31,13 @@ Then open your `hugo.toml` file and add the following tag:
 
 ### Use git submodule
 
-Run these commands to create a Hugo site with the [tophat](https://github.com/sergiobarriel/tophat-theme) theme
+Run these commands to create a Hugo site with the [tophat](https://github.com/philenz/tophat-theme) theme
 
 ```shell
 hugo new site my-blog
 cd my-blog
 git init
-git submodule add https://github.com/sergiobarriel/tophat-theme.git themes/tophat
+git submodule add https://github.com/philenz/tophat-theme.git themes/tophat
 echo "theme = 'tophat'" >> hugo.toml
 hugo server
 ```
@@ -98,12 +98,12 @@ The default pagination is 10 items, but you can set a different number.
   [[menu.social]]
     identifier = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/sergiobarriel" 
+    url = "https://twitter.com/philenz" 
 
   [[menu.social]]
     identifier = "github"
     name = "Github"
-    url = "https://github.com/sergiobarriel"
+    url = "https://github.com/philenz"
 
 ```
 
